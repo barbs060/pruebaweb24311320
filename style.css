@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Raleway', sans-serif;
-    background-image: url(../Image/logo.jpeg);
+    background-image: url(logo.jpeg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
