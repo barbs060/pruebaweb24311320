@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFL</title>
+    <link rel="icon" type="image/x-icon" href="../Image/logoo.png">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <h1>"NFL Universe"</h1>
+    <h2>El espacio de los aficionados del futbol Americano</h2>
+    <br><br>
+    <p class="video-text">Revive los mejores Hurdles</p>
+    
+    <div id="imagen-container-1">
+        <img src="../Image/k.jpeg" alt="NFL Action" class="video-image" onclick="mostrarVideo1()">
+    </div>
+
+    <div id="video-1" style="display:none;">
+        <video controls width="800">
+            <source src="../video/Hurdles.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <br><br>
+    <p class="video-text">Revive las mejores One-Handed catches</p>
+
+    <div id="imagen-container-2">
+        <img src="../Image/OBJ.jpg" alt="NFL Action" class="video-image" onclick="mostrarVideo2()">
+    </div>
+
+    <div id="video-2" style="display:none;">
+        <video controls width="800">
+            <source src="../video/Recepciones.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <script src="../js/MV.js"></script>
+</body>
+</html>
